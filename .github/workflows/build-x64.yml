@@ -12,7 +12,7 @@ jobs:
       
     - name: script
       shell: cmd
-      run: curl -o build.bat https://raw.githubusercontent.com/ikas-mc/wiliwili-uwp-poc/main/build-ci.bat
+      run: curl -o build.bat https://raw.githubusercontent.com/Mckayzzz/wiliwili-uwp-poc/main/build-ci.bat
 
     - name: build
       shell: cmd
@@ -21,7 +21,7 @@ jobs:
     - name: upload
       uses: actions/upload-artifact@v4
       with:
-        name: wiliwili-uwp-X64
+        name: iCheers-X64
         path: |
           ${{github.workspace}}\wiliwili-uwp-poc\build\AppPackages\**\*.msixbundle
           ${{github.workspace}}\wiliwili-uwp-poc\build\AppPackages\**\*.msix
