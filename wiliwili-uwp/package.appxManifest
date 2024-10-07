@@ -24,7 +24,7 @@
 		<Resource Language="x-generate" />
 	</Resources>
 	<Applications>
-		<Application Id="App" Executable="iCheers.exe" EntryPoint="iCheers.App">
+		<Application Id="App" Executable="wiliwili-uwp.exe" EntryPoint="wiliwili-uwp.App">
 			<uap:VisualElements
 				DisplayName="iCheers"
 				Description="iCheers"
@@ -37,7 +37,7 @@
 			<Extensions>
 				<uap3:Extension Category="windows.appExecutionAlias">
 					<uap3:AppExecutionAlias>
-						<desktop:ExecutionAlias Alias="iCheers.exe" />
+						<desktop:ExecutionAlias Alias="wiliwili-uwp.exe" />
 					</uap3:AppExecutionAlias>
 				</uap3:Extension>
 			</Extensions>
