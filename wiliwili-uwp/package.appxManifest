@@ -8,12 +8,12 @@
 	IgnorableNamespaces="uap mp uap3 desktop">
 
 	<Identity Name="B02DDE91-A1D1-48FB-9EBA-2259161BD7A4" Publisher="CN=CMake Test Cert"
-		Version="1.4.0.2" />
+		Version="0" />
 	<mp:PhoneIdentity PhoneProductId="B02DDE91-A1D1-48FB-9EBA-2259161BD7A4"
 		PhonePublisherId="00000000-0000-0000-0000-000000000000" />
 	<Properties>
 		<DisplayName>iCheers</DisplayName>
-		<PublisherDisplayName>unofficial</PublisherDisplayName>
+		<PublisherDisplayName>daatnexus</PublisherDisplayName>
 		<Logo>Assets\StoreLogo.png</Logo>
 	</Properties>
 	<Dependencies>
