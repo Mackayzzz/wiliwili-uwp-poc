@@ -7,7 +7,7 @@
 	xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
 	IgnorableNamespaces="uap mp uap3 desktop">
 
-	<Identity Name="B02DDE91-A1D1-48FB-9EBA-2259161BD7A4" Publisher="CN=CMake Test Cert"
+	<Identity Name="daatnexus" Publisher="CN=daatnexus"
 		Version="0" />
 	<mp:PhoneIdentity PhoneProductId="B02DDE91-A1D1-48FB-9EBA-2259161BD7A4"
 		PhonePublisherId="00000000-0000-0000-0000-000000000000" />
